@@ -194,7 +194,7 @@ public class PartialDerivativesScript : MonoBehaviour {
 				Debug.LogFormat("[Partial Derivatives #{0}] Variable values\n"
 											+ "Stage 1: x = {1}, y = {2}, z = {3}\n"
 											+ "Stage 2: x = {4}, y = {5}, z = {6}\n"
-											+ "Stage 3: x = {7}, y = {8}, z = {9}\n", moduleId, variables[0,0], variables[1,0], variables[2,0], variables[0,1], variables[1,1], variables[2,1], variables[0,2], variables[1,2], variables[2,2]);
+											+ "Stage 3: x = {7}, y = {8}, z = {9}\n", moduleId, variables[0,0], variables[0,1], variables[0,2], variables[1,0], variables[1,1], variables[1,2], variables[2,0], variables[2,1], variables[2,2]);
 		}
 
 		int ConvertLetter(char c) {
